@@ -1,0 +1,25 @@
+Body{
+    background-color: black;
+}
+
+.Container{
+    background-color: #A9A9A9;
+    padding: 20px;
+    width: 300px;
+}
+
+.p, H1{
+    color: white;
+}
+
+.p1 , .p3{
+    height: 20px;
+    width: 100%;
+    background-color: Gray;
+}
+
+.p2 , .p4{
+    height: 20px;
+    width: 100%;
+    background-color: lightgray;
+}
