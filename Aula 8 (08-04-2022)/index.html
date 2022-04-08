@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <title>Aula 08</title>
+    <body>
+        <form align="center">
+            <H2>FORMULÁRIO DE CADASTRO</H2>
+            <div class="form_Cadastro">
+              <label>Nome:</label>
+              <input type="text" class="nome">
+            </div>
+            <p></p>
+            <div class="form-group">
+              <label>Nota 1:</label>
+              <input type="text" class="nota1">
+              <p></p>
+              <label>Nota 2:</label>
+              <input type="text" class="nota2">
+              <p></p>
+              <label>Nota 3:</label>
+              <input type="text" class="nota3">
+            </div>
+            <p></p>
+            <button id="btn_inserir">Inserir</button>
+        </form>
+        <table class="tbl" border="5" align="center">
+            <!-- td: célula da tabela, tr: linha da tabela -->
+            <tr>
+            <th>ALUNO</th>
+            <th>NOTA 1</th>
+            <th>NOTA 2</th>
+            <th>NOTA 3</th>
+            <th>MÉDIA</th>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Juliana</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>7</td>
+                <td>5</td>
+                <td>4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Kaique</td>
+                <td>10</td>
+                <td>9</td>
+                <td>10</td>
+                <td></td>
+                </tr>
+            </table>
+              <script src="./calcular_media.js"></script>
+              <script src="./inserir_aluno.js"></script>
+    </body>
+</html>
